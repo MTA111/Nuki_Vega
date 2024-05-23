@@ -7,7 +7,6 @@ NAME = "Nuki BT"
 DOMAIN = "hass_nuki_bt"
 MANUFACTURER = "nuki"
 VERSION = "0.0.0"
-ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
 
 # config
 CONF_DEVICE_ADDRESS = "device_address"
