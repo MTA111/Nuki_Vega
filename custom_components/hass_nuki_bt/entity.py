@@ -82,9 +82,3 @@ class NukiEntity(PassiveBluetoothCoordinatorEntity[NukiDataUpdateCoordinator]):
             self._last_result = msg.status
         self.async_write_ha_state()
 
-    # async def async_update(self) -> None:
-    #     """Update the entity.
-
-    #     Only used by the generic entity update service.
-    #     """
-    #     await self._device.update_state()
