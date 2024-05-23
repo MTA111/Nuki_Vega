@@ -1,7 +1,7 @@
 """Custom integration to integrate hass_nuki_bt with Home Assistant.
 
 For more details about this integration, please refer to
-https://github.com/ludeeus/hass_nuki_bt
+https://github.com/MTA111/Nuki_Vega
 """
 from __future__ import annotations
 import logging
