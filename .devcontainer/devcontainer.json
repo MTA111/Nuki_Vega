@@ -2,7 +2,7 @@
     "name": "hass_nuki_bt",
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
     "postCreateCommand": "scripts/setup",
     // "forwardPorts": [
     //     8123
