@@ -3,11 +3,11 @@
   "name": "Nuki_Vega",
   "bluetooth": [
     {
-      "local_name": "Nuki_*"
+      "local_name": "Nuki_Vega"
     }
   ],
   "codeowners": [
-    "@ronengr"
+    "@MTA111"
   ],
   "config_flow": true,
   "dependencies": [
