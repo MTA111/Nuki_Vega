@@ -23,5 +23,4 @@
     "pyNukiBT==0.0.9"
   ],
   "version": "0.0.0"
-  "topics": ["nuki_vega", "nuki_device"]
 }
