@@ -6,7 +6,7 @@ import contextlib
 import logging
 from typing import TYPE_CHECKING, Any
 
-import async_timeout
+import asyncio.timeout
 
 from bleak import BleakError
 
