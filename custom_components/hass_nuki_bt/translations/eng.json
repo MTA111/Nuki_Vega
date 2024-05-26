@@ -1,0 +1,43 @@
+{
+  "title": "Nuki Smart Lock",
+  "config": {
+    "flow_title": "{name} ({address})",
+    "step": {
+      "step1": {
+        "title": "New Nuki Device",
+        "description": "Please select",
+        "data": {
+          "name": "Device Name",
+          "device_address": "Device Address",
+          "pin": "Security PIN (Optional)",
+          "client_type": "Client Type"
+        }
+      },
+      "manual": {
+        "title": "New Nuki Device (Manual)",
+        "description": "Enter information manually",
+        "data": {
+          "device_id": "Device ID",
+          "auth_id": "Authentication ID",
+          "private_key": "Private Key",
+          "public_key": "Public Key",
+          "device_public_key": "Device Public Key",
+          "app_id": "App ID"
+        }
+      },
+      "choose_method": {
+        "description": "Select a method to configure {name} ({address}).\nIt is recommended to pair the device automatically.\nSelect the manual option only if you know what you are doing.\n\nBefore clicking \"Pair\", put the Nuki into pairing mode by pressing the button on your Nuki for 5 seconds, until the light is on continuously.",
+        "menu_options": {
+          "pair": "Pair device automatically (recommended)",
+          "manual": "Enter already paired information manually"
+        }
+      }
+    },
+    "error": {
+      "auth": "Username/password is incorrect.",
+      "connection": "Unable to connect to the server.",
+      "unknown": "An unknown error has occurred.",
+      "pairing": "Nuki is not in pairing mode.\nPut the Nuki into pairing mode by pressing the button for 5 seconds and then try again."
+    }
+  }
+}
