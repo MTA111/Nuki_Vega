@@ -5,7 +5,7 @@
 
 [![Community Forum][forum-shield]][forum]
 
-Nuki lock integration for Home Asistance.
+Nuki lock integration for Home Assistance.
 This integration communicates directly with Nuki over Bluetooth. No need for bridge.
 
 
@@ -31,7 +31,7 @@ This integration communicates directly with Nuki over Bluetooth. No need for bri
 * Enable pairing mode on the Nuki lock by holding down the button on the Nuki Smart Lock for 5 seconds until the LED ring is permanently glowing.
 * Select "Pair device automatically"
   * It is possible to configure the device manually, if you have the pairing-information from an already paired device.
-    Use this option only if you know what you are doing. This is mostly ment for development.
+    Use this option only if you know what you are doing. This is mostly meant for development.
 
 #### Client Type:
 Nuki_Vega can connect to the Nuki lock in 2 ways:
