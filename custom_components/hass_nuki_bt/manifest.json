@@ -9,8 +9,8 @@
   "codeowners": [
     "@MTA111"
   ],
-  "topics": ["nuki_vega", "nuki_device"]
-  "config_flow": true
+  "topics": ["nuki_vega", "nuki_device"],
+  "config_flow": true,
   "dependencies": [
     "bluetooth_adapters"
   ],
